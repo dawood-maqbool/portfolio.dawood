@@ -1,48 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f5f5f5;
-    }
+/* Add your CSS styles here */
+.hero-section {
+    padding: px 0;
+    background-color: #beb4b4;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
 
-    .container {
-      max-width: 600px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+.hero-text {
+    text-align: center;
+}
 
-    h2 {
-      margin-top: 0;
-    }
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
 
-    p {
-      margin-bottom: 20px;
-      line-height: 1.5;
-    }
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
 
-  </style>
-</head>
-<body>
+.feature-section {
+    padding: 50px 0;
+    background-color: #a59494;
+    align-items: center;
+}
 
-<div class="container">
-  <h2>About Me</h2>
-  <p>
-    As a college student, I bring a dynamic blend of academic achievement, athletic prowess, and social finesse to every endeavor. Excelling in both scholarly pursuits and sports, I approach challenges with determination and versatility.
-  </p>
-  <p>
-    My adeptness in balancing diverse interests underscores a disciplined approach to personal and professional growth. With a natural ability to navigate social interactions, I foster meaningful connections and collaborations, enriching both my academic journey and extracurricular engagements.
-  </p>
-</div>
+.feature-section img {
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
 
-</body>
-</html>
+#feat{
+    background-color: #a59494;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+#heat{
+    margin-top: -70px;
+}
+
+.love {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+    max-width: fit-content; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.intro {
+    width: 45%; /* Adjust width as needed */
+    background-color: #e7dddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(136, 127, 127, 0.1);
+}
+
+.about, .contact {
+    font-weight: bold;
+    color: #17229a;
+    text-decoration: none;
+    border: #1e5087;
+    background-color: #b9d1eb;
+    border-radius: 5px;
+    padding: auto;
+    
+
+}
+
+a> .about{
+    margin: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 9px;
+    background-color: #1e5087;
+    color: #17229a;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+
+.btn:hover {
+    opacity: 1;
+  }
+
+#footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
